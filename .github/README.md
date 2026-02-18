@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-dax`](https://www.npmjs.com/package/@aws-sdk/client-dax/v/3.74.0).
+[`@aws-sdk/client-dax`](https://www.npmjs.com/package/@aws-sdk/client-dax/v/3.75.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dax@3.74.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dax@3.75.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-IIY2R8+Z6iQx9fLMwIziizTyop8hwusmBQbT3U2BP29MDD5hMUSvTQnJYWd/1fzR
+sha384-dcXTqLqgWZKt5TS/QDJQs7B8aeGdmn1cjn02hWK7rfaT8nhKyZHMv94afT76ICnd
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-dax": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dax@3.74.0/index.min.mjs"
+            "@aws-sdk/client-dax": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dax@3.75.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dax@3.74.0/index.min.mjs": "sha384-IIY2R8+Z6iQx9fLMwIziizTyop8hwusmBQbT3U2BP29MDD5hMUSvTQnJYWd/1fzR"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dax@3.75.0/index.min.mjs": "sha384-dcXTqLqgWZKt5TS/QDJQs7B8aeGdmn1cjn02hWK7rfaT8nhKyZHMv94afT76ICnd"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-dax": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dax@3.74.0/index.min.mjs"
+                        "@aws-sdk/client-dax": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dax@3.75.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dax@3.74.0/index.min.mjs": "sha384-IIY2R8+Z6iQx9fLMwIziizTyop8hwusmBQbT3U2BP29MDD5hMUSvTQnJYWd/1fzR"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dax@3.75.0/index.min.mjs": "sha384-dcXTqLqgWZKt5TS/QDJQs7B8aeGdmn1cjn02hWK7rfaT8nhKyZHMv94afT76ICnd"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.74.0`)
+* Always pin to a specific version (`@3.75.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-dax/blob/refs/tags/3.74.0/LICENSE
+https://github.com/cloud-sdk-builds/client-dax/blob/refs/tags/3.75.0/LICENSE
 ```
 
 ---
